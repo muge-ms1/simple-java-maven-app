@@ -2,7 +2,6 @@ pipeline {
     agent any
     tools {
         maven 'Maven 3'   // name you configured in Jenkins tools
-        jdk 'JDK21'       // if configured under JDK installations
     }
     stages {
         stage('Build') {
